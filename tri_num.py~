@@ -1,0 +1,10 @@
+
+
+curr_num = 1
+counter = 2
+while div_num(curr_num) < 500:
+    curr_num += counter
+    counter += 1
+    print curr_num
+
+print "The first triangle number with five hundred divsors is: %d" % curr_num
